@@ -39,3 +39,10 @@ function away3(){
     scoreAway.textContent = away
 }
 
+function reset(){
+
+    home = 0
+    away = 0
+    scoreHome.textContent = home
+    scoreAway.textContent = away
+}

@@ -20,9 +20,10 @@ body {
 
 .container {
     display: flex;
+
     justify-content: space-around;
     border: 1px solid black;
-    width: 400px;
+    width: 500px;
     margin: 50px auto;
     background: #0b090a;
     padding: 20px 10px;
@@ -56,4 +57,24 @@ h2{
 .buttons:hover{
     cursor: pointer;
     background: #ba181b;
+}
+
+#reset{
+    border: 2PX solid #d3d3d3;
+    width: 100px;
+    max-height: 30px;
+    margin-top: 150px;
+    border-radius: 5px;
+    background: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+#reset:hover{
+
+    background: #d3d3d3;
+    color: #ba181b;
+    cursor: pointer;
 }
