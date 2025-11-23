@@ -1,0 +1,59 @@
+@font-face{
+    src: url("/fonts/modern_led_board-7.ttf");
+    font-family: "ScoreLed";
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 34px #ba181b;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 400px;
+    margin: 50px auto;
+    background: #0b090a;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.score{
+     text-align: center;
+    width: 150px;
+}
+
+h2{
+    
+    color: #ba181b;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: "ScoreLed";
+    font-style:italic;
+    
+}
+
+.buttons{
+    
+    background:none;
+    border: 2px solid #d3d3d3;
+    color: #f5f3f4;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background: #ba181b;
+}
